@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    }
+    
+    .logo img {
+      width: 60px; 
+      height: 60px;
+      margin: 0 auto; 
+      }
+
+    nav {
+    background-color: #211f1f;
+    padding: 10px 0;
+    }
+    
+    .navbar {
+    list-style-type: none;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .navbar li {
+    margin: 0 15px;
+    }
+    
+    .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    }
+    
+    .navbar a:hover {
+    text-decoration: underline;
+    color: rgb(0, 251, 255);
+    }
+
+    .modal-content, .panel, .panel-body, .form-group, .table {
+        background-color: #0b1153;
+        border: 2px solid #393e89;
+        border-radius: 8px;
+      }
+      
+      .modal-content * , .panel * , .panel-body * , .form-group * , .table * {
+        color: #ffffff; /* make all text white */
+      }
+      
+      .panel-body h4 + * {
+        color: #000000; /* make text black under "Recent questions" heading */
+      }
+      
+      #MyTable {
+        color: #000000; /* make text black in the table */
+      }
